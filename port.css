@@ -1,0 +1,172 @@
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+
+header {
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#portfolyo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+#eksayfa1 {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-self: left;
+    align-items: center;
+    padding-top: 100px;
+    flex-direction: column;
+    width: 50vw
+    
+}
+
+#eksayfa2 {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-self: left;
+    align-items: center;
+    padding-top: 100px;
+    flex-direction: column;
+    width: 50vw
+}
+
+#eksayfa3 {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-self: left;
+    align-items: center;
+    padding-top: 100px;
+    flex-direction: column;
+    width: 50vw
+    
+    
+}
+
+#eksayfa4 {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-self: left;
+    align-items: center; 
+    padding-top: 100px;
+    flex-direction: column;
+    width: 50vw
+}
+
+
+
+
+
+.tarih {
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.722);
+    top: 20px;
+    left: 20px;
+     width: auto;
+    height: 30px;
+    font-size: medium;
+    text-align: end;
+    box-sizing: border-box;
+   text-align: left;
+}
+
+
+
+
+.img {
+    
+    padding-left: 80px;
+   width: 80%
+}
+
+
+.img1 {
+    
+    width: 25vw;
+    filter: blur(2px);
+ }
+
+  
+
+
+        
+
+
+li {
+    font-weight: bold;
+    padding-left: 80px;
+    color: rgb(49, 49, 49);
+    font-size: x-large
+    
+}
+
+.text{
+    
+    padding-left: 80px;
+    font-weight: 100;
+    color: rgb(49, 49, 49);
+    font-size: medium;
+    
+
+}
+
+
+.pproje {
+    display: flex;
+      flex-direction: column; 
+      align-items: center;    
+      width: 40%;            
+      margin: 50px auto;       
+      padding: 20px;
+      border: 2px solid #333;
+       
+      
+}
+
+.pbaşlık {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.photo-box {
+    display: flex;
+    flex-wrap: wrap; 
+      gap: 10px;       
+      justify-content: center; 
+      margin: 20px;
+
+}
+
+.photo-box img {
+    width: 45%;       
+      height: auto;
+}
+
+
+
+
